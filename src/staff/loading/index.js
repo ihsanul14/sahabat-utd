@@ -12,21 +12,21 @@ export default class index extends Component {
     };
 
     nextScreen() {
-        this.props.navigation.dispatch(StackActions.replace('Dashboard'));
+        this.props.navigation.dispatch(StackActions.replace('StokDarah'));
     }
 
-    componentDidMount() {
-        setTimeout(() => {
-            this.setState(
-                {
-                    isLoading: false,
-                },
-                () => {
-                    this.checkLoggedIn();
-                },
-            );
-        }, 2000);
-    }
+    // componentDidMount() {
+    //     setTimeout(() => {
+    //         this.setState(
+    //             {
+    //                 isLoading: false,
+    //             },
+    //             () => {
+    //                 this.checkLoggedIn();
+    //             },
+    //         );
+    //     }, 2000);
+    // }
 
     checkLoggedIn() {
         AsyncStorage.getItem('token').then((value) => {
@@ -53,7 +53,8 @@ export default class index extends Component {
                             style={{
                                 width: '100%',
                                 height: '100%',
-                            }}></ImageBackground>
+                            }}
+                        />
                     </TouchableWithoutFeedback>
                 )}
             </>

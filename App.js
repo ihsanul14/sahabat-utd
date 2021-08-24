@@ -25,13 +25,14 @@ import OptionRs from './src/staff/uji_pcr/index/option_rs/index';
 import QrcodePcr from './src/staff/uji_pcr/index/qrcode_pcr/index';
 import Telemedicine from './src/staff/telemedicine/index';
 import StatistikInvestasi from './src/staff/statistik_investasi/index';
+import StokDarah from './src/staff/stok_darah/index';
 
 export default class App extends React.Component {
     render() {
         const Stack = createStackNavigator();
         return (
             <NavigationContainer>
-                <Stack.Navigator initialRouteName="Loading">
+                <Stack.Navigator initialRouteName="StokDarah">
                     <Stack.Screen
                         name="StatistikInvestasi"
                         // options={{title: 'StatistikInvestasi Staff'}}
@@ -49,6 +50,12 @@ export default class App extends React.Component {
                         // options={{title: 'Loading Staff'}}
                         options={{headerShown: false}}
                         component={Loading}
+                    />
+                    <Stack.Screen
+                        name="StokDarah"
+                        // options={{title: 'Loading Staff'}}
+                        options={{headerShown: false}}
+                        component={StokDarah}
                     />
                     <Stack.Screen
                         name="Register"
