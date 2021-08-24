@@ -1,0 +1,194 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sehat_ri_staff"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:10:5-78
+11-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:10:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:5:5-65
+13-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:5:22-62
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:6:5-70
+14-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:6:22-68
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:7:5-80
+15-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:8:5-81
+16-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:9:5-65
+17-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:9:22-63
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:11:5-79
+18-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:11:22-76
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:12:5-77
+19-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:12:22-74
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:13:7-70
+20-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:13:24-67
+21    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+21-->[com.facebook.flipper:flipper:0.37.0] C:\Users\hrd\.gradle\caches\transforms-2\files-2.1\623174cd4892d9fb924ac44b102b25c0\flipper-0.37.0\AndroidManifest.xml:16:5-76
+21-->[com.facebook.flipper:flipper:0.37.0] C:\Users\hrd\.gradle\caches\transforms-2\files-2.1\623174cd4892d9fb924ac44b102b25c0\flipper-0.37.0\AndroidManifest.xml:16:22-73
+22
+23    <uses-feature
+23-->[:react-native-camera] D:\react_learn\sahabat-utd\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:11:5-13:36
+24        android:name="android.hardware.camera"
+24-->[:react-native-camera] D:\react_learn\sahabat-utd\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:12:9-47
+25        android:required="false" />
+25-->[:react-native-camera] D:\react_learn\sahabat-utd\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:13:9-33
+26    <uses-feature
+26-->[:react-native-camera] D:\react_learn\sahabat-utd\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:14:5-16:36
+27        android:name="android.hardware.camera.autofocus"
+27-->[:react-native-camera] D:\react_learn\sahabat-utd\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:15:9-57
+28        android:required="false" />
+28-->[:react-native-camera] D:\react_learn\sahabat-utd\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:16:9-33
+29
+30    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Required to access Google Play Licensing -->
+30-->[:react-native-maps] D:\react_learn\sahabat-utd\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+30-->[:react-native-maps] D:\react_learn\sahabat-utd\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-78
+31    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+31-->[:rn-fetch-blob] D:\react_learn\sahabat-utd\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-73
+31-->[:rn-fetch-blob] D:\react_learn\sahabat-utd\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-70
+32    <!--
+33         Required to poll the state of the network connection
+34        and respond to changes
+35    -->
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+36-->[:rn-fetch-blob] D:\react_learn\sahabat-utd\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-79
+36-->[:rn-fetch-blob] D:\react_learn\sahabat-utd\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:22-76
+37
+38    <uses-feature
+38-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\hrd\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+39        android:glEsVersion="0x00020000"
+39-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\hrd\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+40        android:required="true" />
+40-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\hrd\.gradle\caches\transforms-2\files-2.1\3ca81724f46a1af5d268488a528eb8e5\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+41
+42    <application
+42-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:15:5-49:19
+43        android:name="com.sehat_ri_staff.MainApplication"
+43-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:16:7-38
+44        android:allowBackup="false"
+44-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:21:7-34
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.1.0] C:\Users\hrd\.gradle\caches\transforms-2\files-2.1\639e914bfc1efa21e36199d3ff2c5eef\core-1.1.0\AndroidManifest.xml:24:18-86
+46        android:debuggable="true"
+47        android:icon="@mipmap/ic_launcher"
+47-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:18:7-41
+48        android:label="@string/app_name"
+48-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:17:7-39
+49        android:roundIcon="@mipmap/ic_launcher_round"
+49-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:20:7-52
+50        android:theme="@style/AppTheme"
+50-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:22:7-38
+51        android:usesCleartextTraffic="true" >
+51-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:19:7-42
+52        <service android:name="com.asterinet.react.bgactions.RNBackgroundActionsTask" /> <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
+52-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:23:7-87
+52-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:23:16-84
+53        <meta-data
+53-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:25:5-27:66
+54            android:name="com.google.android.geo.API_KEY"
+54-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:26:9-54
+55            android:value="AIzaSyAeDVhYhBKJmyo3vNHrx4ifUvIIM10gEcI" /> <!-- You will also only need to add this uses-library tag -->
+55-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:27:9-64
+56        <uses-library
+56-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:30:5-83
+57            android:name="org.apache.http.legacy"
+57-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:30:19-56
+58            android:required="false" />
+58-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:30:57-81
+59
+60        <activity
+60-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:31:7-47:18
+61            android:name="com.sehat_ri_staff.MainActivity"
+61-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:32:9-37
+62            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+62-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:34:9-86
+63            android:label="@string/app_name"
+63-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:33:9-41
+64            android:launchMode="singleTask"
+64-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:35:9-40
+65            android:windowSoftInputMode="adjustResize" >
+65-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:36:9-51
+66            <intent-filter>
+66-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:37:9-40:25
+67                <action android:name="android.intent.action.MAIN" />
+67-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:38:13-65
+67-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:38:21-62
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:39:13-73
+69-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:39:23-70
+70            </intent-filter>
+71            <intent-filter android:label="filter_react_native" >
+71-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:41:9-46:25
+71-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:41:24-59
+72                <action android:name="android.intent.action.VIEW" />
+72-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:42:13-65
+72-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:42:21-62
+73
+74                <category android:name="android.intent.category.DEFAULT" />
+74-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:43:13-72
+74-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:43:23-69
+75                <category android:name="android.intent.category.BROWSABLE" />
+75-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:44:13-74
+75-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:44:23-71
+76
+77                <data android:scheme="yourSchemeHere" />
+77-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:45:13-53
+77-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:45:19-50
+78            </intent-filter>
+79        </activity>
+80        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+80-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:48:7-84
+80-->D:\react_learn\sahabat-utd\android\app\src\main\AndroidManifest.xml:48:17-81
+81
+82        <provider
+82-->[:rn-fetch-blob] D:\react_learn\sahabat-utd\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-44:20
+83            android:name="com.RNFetchBlob.Utils.FileProvider"
+83-->[:rn-fetch-blob] D:\react_learn\sahabat-utd\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-62
+84            android:authorities="com.sehat_ri_staff.provider"
+84-->[:rn-fetch-blob] D:\react_learn\sahabat-utd\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-60
+85            android:exported="false"
+85-->[:rn-fetch-blob] D:\react_learn\sahabat-utd\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-37
+86            android:grantUriPermissions="true" >
+86-->[:rn-fetch-blob] D:\react_learn\sahabat-utd\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-47
+87            <meta-data
+87-->[:rn-fetch-blob] D:\react_learn\sahabat-utd\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-43:58
+88                android:name="android.support.FILE_PROVIDER_PATHS"
+88-->[:rn-fetch-blob] D:\react_learn\sahabat-utd\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:17-67
+89                android:resource="@xml/provider_paths" />
+89-->[:rn-fetch-blob] D:\react_learn\sahabat-utd\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:17-55
+90        </provider>
+91
+92        <activity
+92-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hrd\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+93            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+93-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hrd\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hrd\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\hrd\.gradle\caches\transforms-2\files-2.1\fc8046cb9a5df9499609a5f7f8270b1b\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+96
+97        <meta-data
+97-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\hrd\.gradle\caches\transforms-2\files-2.1\6de04b077f7ce0748b0a9f1f3769ed31\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+98            android:name="com.google.android.gms.version"
+98-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\hrd\.gradle\caches\transforms-2\files-2.1\6de04b077f7ce0748b0a9f1f3769ed31\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+99            android:value="@integer/google_play_services_version" />
+99-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\hrd\.gradle\caches\transforms-2\files-2.1\6de04b077f7ce0748b0a9f1f3769ed31\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+100    </application>
+101
+102</manifest>
