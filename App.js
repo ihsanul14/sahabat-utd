@@ -25,14 +25,23 @@ import OptionRs from './src/staff/uji_pcr/index/option_rs/index';
 import QrcodePcr from './src/staff/uji_pcr/index/qrcode_pcr/index';
 import Telemedicine from './src/staff/telemedicine/index';
 import StatistikInvestasi from './src/staff/statistik_investasi/index';
-import StokDarah from './src/staff/stok_darah/index';
+import StokDarahHome  from './src/staff/stok_darah/home/index';
+import StokDarah  from './src/staff/stok_darah/stok/index';
+import KebutuhanDarah  from './src/staff/stok_darah/kebutuhan/index';
+import MobilUnit from './src/staff/mobil_unit/mobil_unit/index';
+import MobilUnitHome from './src/staff/mobil_unit/home/index';
+import Home from './src/staff/user_management/home/index';
+import RegisterUTD from './src/staff/user_management/register/index';
+import LoginUTD from './src/staff/user_management/login/index';
+import DetailUser from './src/staff/user_management/detail/index';
+
 
 export default class App extends React.Component {
     render() {
         const Stack = createStackNavigator();
         return (
             <NavigationContainer>
-                <Stack.Navigator initialRouteName="StokDarah">
+                <Stack.Navigator initialRouteName="Home">
                     <Stack.Screen
                         name="StatistikInvestasi"
                         // options={{title: 'StatistikInvestasi Staff'}}
@@ -52,10 +61,58 @@ export default class App extends React.Component {
                         component={Loading}
                     />
                     <Stack.Screen
+                        name="StokDarahHome"
+                        // options={{title: 'Loading Staff'}}
+                        options={{headerShown: false}}
+                        component={StokDarahHome}
+                    />
+                    <Stack.Screen
+                        name="KebutuhanDarah"
+                        // options={{title: 'Loading Staff'}}
+                        options={{headerShown: false}}
+                        component={KebutuhanDarah}
+                    />
+                    <Stack.Screen
                         name="StokDarah"
                         // options={{title: 'Loading Staff'}}
                         options={{headerShown: false}}
                         component={StokDarah}
+                    />
+                    <Stack.Screen
+                        name="MobilUnitHome"
+                        // options={{title: 'Loading Staff'}}
+                        options={{headerShown: false}}
+                        component={MobilUnitHome}
+                    />
+                    <Stack.Screen
+                        name="Home"
+                        // options={{title: 'Loading Staff'}}
+                        options={{headerShown: false}}
+                        component={Home}
+                    />
+                    <Stack.Screen
+                        name="RegisterUTD"
+                        // options={{title: 'Loading Staff'}}
+                        options={{headerShown: false}}
+                        component={RegisterUTD}
+                    />
+                    <Stack.Screen
+                        name="LoginUTD"
+                        // options={{title: 'Loading Staff'}}
+                        options={{headerShown: false}}
+                        component={LoginUTD}
+                    />
+                    <Stack.Screen
+                        name="DetailUser"
+                        // options={{title: 'Loading Staff'}}
+                        options={{headerShown: false}}
+                        component={DetailUser}
+                    />
+                    <Stack.Screen
+                        name="MobilUnit"
+                        // options={{title: 'Loading Staff'}}
+                        options={{headerShown: false}}
+                        component={MobilUnit}
                     />
                     <Stack.Screen
                         name="Register"

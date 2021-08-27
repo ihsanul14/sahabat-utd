@@ -12,35 +12,21 @@ export default class index extends Component {
     };
 
     nextScreen() {
-        this.props.navigation.dispatch(StackActions.replace('StokDarah'));
+        this.props.navigation.dispatch(StackActions.replace('StokDarahHome'));
     }
-
-    // componentDidMount() {
-    //     setTimeout(() => {
-    //         this.setState(
-    //             {
-    //                 isLoading: false,
-    //             },
-    //             () => {
-    //                 this.checkLoggedIn();
-    //             },
-    //         );
-    //     }, 2000);
+    // checkLoggedIn() {
+    //     AsyncStorage.getItem('token').then((value) => {
+    //         if (value == null) {
+    //             this.props.navigation.dispatch(StackActions.replace('Login'));
+    //         } else {
+    //             this.props.navigation.dispatch(
+    //                 StackActions.replace('Dashboard', {
+    //                     token: value,
+    //                 }),
+    //             );
+    //         }
+    //     });
     // }
-
-    checkLoggedIn() {
-        AsyncStorage.getItem('token').then((value) => {
-            if (value == null) {
-                this.props.navigation.dispatch(StackActions.replace('Login'));
-            } else {
-                this.props.navigation.dispatch(
-                    StackActions.replace('Dashboard', {
-                        token: value,
-                    }),
-                );
-            }
-        });
-    }
 
     render() {
         return (
